@@ -1,0 +1,12 @@
+<settings>
+    <category label="AS Cleaner Settings">
+        <setting label="Maintenance Options" type="lsep"/>
+        <setting id="auto_clean" type="bool" label="Auto-Clean on Startup" default="false"/>
+        <setting id="clean_cache" type="bool" label="Clean Cache Folder" default="true"/>
+        <setting id="clean_packages" type="bool" label="Clean Packages Folder" default="true"/>
+        <setting id="clean_thumbs" type="bool" label="Clean Thumbnails Safely (Aliunde-style)" default="true"/>
+        <setting id="clean_addon_data" type="bool" label="Clean Addon Data (safe mode)" default="false"/>
+        <setting id="clean_orphaned_addon_data" type="bool" label="Clean Orphaned Addon Data" default="true"/>
+        <setting id="show_summary" type="bool" label="Show Summary Popup" default="true"/>
+    </category>
+</settings>
