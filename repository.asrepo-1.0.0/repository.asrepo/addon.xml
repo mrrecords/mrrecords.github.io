@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.asrepo" name="AS Repo" version="1.0.0" provider-name="mrrecords">
+    <extension point="xbmc.addon.repository" name="AS Repo">
+        <info compressed="false">https://mrrecords.github.io/addons.xml</info>
+        <checksum>https://mrrecords.github.io/addons.xml.md5</checksum>
+        <datadir>https://mrrecords.github.io/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">AS Repo containing AS Cleaner</summary>
+        <description lang="en_GB">This repository contains the AS Cleaner add-on and future AS tools.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
